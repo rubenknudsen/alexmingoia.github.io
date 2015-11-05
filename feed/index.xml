@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Alex Mingoia</title>
+        <link>https://www.alexmingoia.com</link>
+        <description><![CDATA[Alex Mingoia's blog.]]></description>
+        <atom:link href="https://www.alexmingoia.com/feed/index.xml" rel="self"
+                   type="application/rss+xml" />
+        <lastBuildDate>Wed, 30 Sep 2015 00:00:00 UT</lastBuildDate>
+        <item>
+    <title>A Brief History of JavaScript's console</title>
+    <link>https://www.alexmingoia.com/posts/a-brief-history-of-javascripts-console/</link>
+    <description><![CDATA[<h1 id="a-brief-history-of-javascripts-console">A Brief History of JavaScript’s console</h1>
+<p>You probably use it every day, yet there’s no standard implementation. It was introduced 10 years ago, but despite its age and widespread adoption <code>console</code> is not part of <a href="https://en.wikipedia.org/wiki/ECMAScript">ECMAScript</a>.</p>
+<p>Where did it come from? What did people do before <code>console.log</code>?</p>
+<p>Older versions of Firefox, Opera, and Internet Explorer circa 2000 had introduced a JavaScript “Console” that kept a log of errors and sometimes included a debugger for setting breakpoints. You could evaluate JS in these consoles but had no way of writing your own messages to the log.</p>
+<div class="figure">
+<img src="/images/console.png" alt="Mozilla JavaScript Console - © alistapart.com" />
+<p class="caption">Mozilla JavaScript Console - © alistapart.com</p>
+</div>
+<p>Writing to that console was the inspiration for <code>console.log</code>. Without it, developers used a combination of <code>window.alert</code>s and tools that wrote log messages to hidden DOM elements or attributes. One such tool was fvlogger <a href="http://alistapart.com/article/jslogging">released in 2005</a> by David F. Miller of A List Apart. Other tools with an interface similar to Apache log4j appeared in 2005, including <a href="http://log4javascript.org">log4js</a> by Tim Down and <a href="http://www.mojavelinux.com/wiki/lib/exe/fetch.php?id=scriptsandbox&amp;cache=cache&amp;media=logger.js.txt">JSLogger</a> by Dan Allen.</p>
+<p><code>console</code> appears to have been first introduced in its current form in 2006 by <a href="https://web.archive.org/web/20061228053918/http://www.getfirebug.com/logging.html">Firebug</a>, a web development plugin for Firefox. Firebug provided an enhanced web console capable of debugging, profiling, and DOM inspection. Similar plugins for other browsers appeared shortly after. These third-party development consoles put pressure on browsers to incorporate their features. Eventually, a console object was introduced in Internet Explorer 8, Opera 9.5, and Safari 3 (not confirmed).</p>
+<p>Today still there is no standardized implementation of console object and its methods. Even <code>console.log</code> behaves slightly different across browsers. It’s grown beyond the Firebug implementation, with methods for tables, timers, and stack traces. The Developer Tools Working Group has begun a draft <a href="https://github.com/DeveloperToolsWG/console-object">console standard</a> to improve parity between implementations. With widespread implementation across browsers and node.js, it looks like console is here to stay.</p>]]></description>
+    <pubDate>Wed, 30 Sep 2015 00:00:00 UT</pubDate>
+    <guid>https://www.alexmingoia.com/posts/a-brief-history-of-javascripts-console/</guid>
+    <dc:creator>Alex Mingoia</dc:creator>
+</item>
+
+    </channel>
+</rss>
