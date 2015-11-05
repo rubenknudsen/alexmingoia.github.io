@@ -1,0 +1,5 @@
+_site
+_cache
+dist
+.stack-work
+**DS_Store

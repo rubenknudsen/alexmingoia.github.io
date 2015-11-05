@@ -1,0 +1,17 @@
+<div id="post">
+  $body$
+  <div class="lowlight small mjb">
+      Posted on $date$
+      $if(author)$
+          by $author$
+      $endif$
+  </div>
+
+  <a href="http://news.ycombinator.com/submit"
+    class="hn-share-button"
+    data-title="$title$">Vote on HN</a>
+  <a href="https://twitter.com/share" class="twitter-share-button"
+    data-via="alexmingoia">Tweet</a>
+
+  <div id="disqus_thread"></div>
+</div>
