@@ -12,7 +12,7 @@
     <title>A Brief History of JavaScript's console</title>
     <link>https://www.alexmingoia.com/posts/a-brief-history-of-javascripts-console/</link>
     <description><![CDATA[<h1 id="a-brief-history-of-javascripts-console">A Brief History of JavaScript’s console</h1>
-<p>You probably use it every day, yet there’s no standard implementation. It was introduced 10 years ago, but despite its age and widespread adoption <code>console</code> is not part of <a href="https://en.wikipedia.org/wiki/ECMAScript">ECMAScript</a>.</p>
+<p>You probably use it every day, yet there’s no standard implementation. It was introduced 10 years ago, but despite its age and widespread adoption <code>console</code> is not part of ECMAScript.</p>
 <p>Where did it come from? What did people do before <code>console.log</code>?</p>
 <p>Older versions of Firefox, Opera, and Internet Explorer circa 2000 had introduced a JavaScript “Console” that kept a log of errors and sometimes included a debugger for setting breakpoints. You could evaluate JS in these consoles but had no way of writing your own messages to the log.</p>
 <div class="figure">
