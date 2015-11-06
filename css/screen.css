@@ -9,9 +9,19 @@ html, body {
   text-align: center;
 }
 
+p a:link, p a:visited {
+  color: #D15454;
+  text-decoration: none;
+}
+
+p a:hover, p a:active {
+  color: #D15454;
+  text-decoration: underline;
+}
+
 .wrap {
   margin: 0 auto;
-  max-width: 560px;
+  max-width: 640px;
   padding-top: 3%;
   position: relative;
   text-align: left;
@@ -220,6 +230,12 @@ a span {
 .profile-compact .name {
   display: inline-block;
   vertical-align: middle;
+}
+
+#post p {
+  font-family: georgia, cambria, times, serif;
+  font-weight: 300;
+  line-height: 1.6;
 }
 
 @media (max-width: 480px) {

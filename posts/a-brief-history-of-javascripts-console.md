@@ -7,7 +7,7 @@ date: September 30, 2015
 
 You probably use it every day, yet there's no standard implementation. It was
 introduced 10 years ago, but despite its age and widespread adoption
-`console` is not part of [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript).
+`console` is not part of ECMAScript.
 
 Where did it come from? What did people do before `console.log`?
 
