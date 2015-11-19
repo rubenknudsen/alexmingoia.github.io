@@ -1,51 +1,49 @@
 <div class="wrap post">
-  <main>
-    <div class="profile-compact">
-      <div class="pic">
-        <img src="/images/alex.jpg" width="36" height="36" alt="Alex Mingoia Headshot" />
-      </div>
-      <h1>
-        <a href="/" title="Home">
-          <span class="name">Alex Mingoia</span>
-        </a>
-      </h1>
-      <ul class="large">
-        <li class="inline mbr">
-          <a class="lowlight fa fa-github"
-             href="https://github.com/alexmingoia"
-             title="GitHub"></a>
-        </li>
-        <li class="inline mbr">
-          <a class="lowlight fa fa-twitter"
-             href="https://twitter.com/alexmingoia"
-             title="Twitter"></a>
-        </li>
-        <li class="inline">
-          <a class="lowlight fa fa-envelope-square"
-             href="mailto:talk@alexmingoia.com"
-             title="E-mail"></a>
-        </li>
-      </ul>
+  <div class="profile-compact">
+    <div class="pic">
+      <img src="/images/alex.jpg" width="36" height="36" alt="Alex Mingoia Headshot" />
     </div>
+    <h1>
+      <a href="/" title="Home">
+        <span class="name">Alex Mingoia</span>
+      </a>
+    </h1>
+    <ul class="large">
+      <li class="inline mbr">
+        <a class="lowlight fa fa-github"
+           href="https://github.com/alexmingoia"
+           title="GitHub"></a>
+      </li>
+      <li class="inline mbr">
+        <a class="lowlight fa fa-twitter"
+           href="https://twitter.com/alexmingoia"
+           title="Twitter"></a>
+      </li>
+      <li class="inline">
+        <a class="lowlight fa fa-envelope-square"
+           href="mailto:talk@alexmingoia.com"
+           title="E-mail"></a>
+      </li>
+    </ul>
+  </div>
 
-    <div id="post">
-      $body$
-      <div class="lowlight small mjb">
-          Posted on $date$
-          $if(author)$
-              by $author$
-          $endif$
-      </div>
+  <div id="post">
+    <main>$body$</main>
+    <div class="lowlight small mjb">
+        Posted on $date$
+        $if(author)$
+            by $author$
+        $endif$
     </div>
+  </div>
 
-    <a href="http://news.ycombinator.com/submit"
-      class="hn-share-button"
-      data-title="$title$">Vote on HN</a>
-    <a href="https://twitter.com/share" class="twitter-share-button"
-      data-via="alexmingoia">Tweet</a>
+  <a href="http://news.ycombinator.com/submit"
+    class="hn-share-button"
+    data-title="$title$">Vote on HN</a>
+  <a href="https://twitter.com/share" class="twitter-share-button"
+    data-via="alexmingoia">Tweet</a>
 
-    <div id="disqus_thread"></div>
-  </main>
+  <div id="disqus_thread"></div>
   <footer>
     <a href="https://github.com/alexmingoia/alexmingoia.github.io/">
       &lt;source/&gt;

@@ -9,12 +9,12 @@ html, body {
   text-align: center;
 }
 
-p a:link, p a:visited {
+.wrap main a:link, .wrap main a:visited {
   color: #D15454;
   text-decoration: none;
 }
 
-p a:hover, p a:active {
+.wrap main a:hover, .wrap main a:active {
   color: #D15454;
   text-decoration: underline;
 }
@@ -145,7 +145,7 @@ footer a:hover, footer a:active {
 }
 
 .lowlight {
-  color: #CCC;
+  color: #999;
 }
 
 .block {
@@ -178,6 +178,15 @@ h1 {
 #profile h2 {
   font-size: 1em;
   font-weight: normal;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+h4 {
+  font-weight: 400;
+  margin-bottom: 1em;
 }
 
 .ellipsis {
