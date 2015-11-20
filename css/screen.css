@@ -38,6 +38,10 @@ html, body {
   text-align: right;
 }
 
+#profile a .alt {
+  display: none;
+}
+
 #disqus_thread {
   margin: 1em 0;
 }
@@ -245,6 +249,82 @@ a span {
   font-family: georgia, cambria, times, serif;
   font-weight: 300;
   line-height: 1.6;
+}
+
+@media print {
+  #links li {
+    border-bottom: 1px #F5F5F5 solid;
+  }
+
+  #links a, #post {
+    padding-left: 0;
+    padding-bottom: 3%;
+  }
+
+  #links a:link, #links a:visited {
+    border-left: none;
+    border-bottom: 2px solid transparent;
+  }
+
+  #links a:hover, #links a:active {
+    border-left: none;
+    border-bottom: 2px solid;
+  }
+
+  #sidebar {
+    border-left: none;
+  }
+
+  #profile h1 {
+    display: inline-block;
+    font-weight: normal;
+    vertical-align: middle;
+  }
+
+  #profile .pic {
+    display: inline-block;
+  }
+
+  #profile ul {
+    margin-top: -1.7em;
+    text-align: right;
+  }
+
+  #profile li.mbr {
+    margin: 0;
+  }
+
+  #profile a {
+    display: block;
+    font-size: .8em;
+  }
+
+  #profile a .fa {
+    display: none;
+  }
+
+  #profile a .alt {
+    display: inline;
+  }
+
+  #profile .name {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  #profile h2 {
+    display: none;
+  }
+
+  #profile, #sidebar {
+    float: none;
+    text-align: left;
+    width: auto;
+  }
+
+  footer {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
